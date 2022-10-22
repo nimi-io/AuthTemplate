@@ -1,0 +1,32 @@
+{
+  "name": "foodappbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-i-m-i/FoodBackEndApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-i-m-i/FoodBackEndApp/issues"
+  },
+  "homepage": "https://github.com/n-i-m-i/FoodBackEndApp#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.6",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0",
+    "validator": "^13.7.0"
+  }
+}
